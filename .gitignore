@@ -1,0 +1,76 @@
+
+# Unity-generated directories
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+# IDE and Gradle
+.vs/
+.gradle/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.log
+
+# Generated builds
+*.exe
+*.apk
+*.aab
+*.unitypackage
+
+# Android signing and private keys
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Service configuration (review separately)
+**/google-services.json
+**/google-services.json.meta
+**/service-account*.json
+**/google-services-desktop.json
+**/google-services-desktop.json.meta
+
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+# Metadata for confidential files
+*.keystore.meta
+*.jks.meta
+*.p12.meta
+*.pfx.meta
+*.pem.meta
+*.key.meta
+**/service-account*.json.meta
+
+# Local environment configuration
+.env
+.env.*
+
+
+# Third-party Unity Asset Store package
+/WindowsUnity/Assets/Simple FX Kit/
+/WindowsUnity/Assets/Simple FX Kit.meta
+
+
+# Firebase macOS and Linux native libraries
+/AndroidUnity/Assets/Firebase/Plugins/x86_64/*.bundle
+/AndroidUnity/Assets/Firebase/Plugins/x86_64/*.bundle.meta
+/AndroidUnity/Assets/Firebase/Plugins/x86_64/*.so
+/AndroidUnity/Assets/Firebase/Plugins/x86_64/*.so.meta

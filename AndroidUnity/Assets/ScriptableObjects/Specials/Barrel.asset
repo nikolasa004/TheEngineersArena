@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7a4f33d5464c1439da306367b10bc1, type: 3}
+  m_Name: Barrel
+  m_EditorClassIdentifier: 
+  id: barrel
+  sprite: {fileID: 21300000, guid: 2ee69c030cfdd1f4792eb1caf1e13a82, type: 3}
+  uses: 1
+  effect: Can be placed on map, deals massive damage when destroyed
+  functions:
+  - Use
+  prefab: {fileID: 3493601371485319132, guid: 26f3565a928427443b5bf65d5de2a663, type: 3}

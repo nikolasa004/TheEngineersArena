@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7a4f33d5464c1439da306367b10bc1, type: 3}
+  m_Name: Oil
+  m_EditorClassIdentifier: 
+  id: Oil
+  sprite: {fileID: 21300000, guid: 91bb896b972b969419b9ceb5a615387a, type: 3}
+  uses: 3
+  effect: Can be spilled on map, makes floor slippery, flammable
+  functions:
+  - Use
+  - GetUses
+  prefab: {fileID: 4340182912112824416, guid: c6d0c55edde3a9e428e6ef0cbccc5eaf, type: 3}

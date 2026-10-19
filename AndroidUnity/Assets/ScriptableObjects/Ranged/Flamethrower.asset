@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad58250b20fdfaa41954a7920ba80caf, type: 3}
+  m_Name: Flamethrower
+  m_EditorClassIdentifier: 
+  id: flamethrower
+  sprite: {fileID: 21300000, guid: ea870305199ef0e49b01c8cf297dfbc5, type: 3}
+  attack: 25
+  uses: 30
+  cooldown: 20
+  speed: 1
+  functions:
+  - Burn
+  - Cooldown
+  prefab: {fileID: 7828409943534613330, guid: 6da15ef7cf3bab94490ca5a821713f39, type: 3}

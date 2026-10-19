@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883ae0b97b20185409b8b4713b9e6889, type: 3}
+  m_Name: Chainsaw
+  m_EditorClassIdentifier: 
+  id: chainsaw
+  sprite: {fileID: 21300000, guid: bfe8f8e9152015542b8962cf3e896652, type: 3}
+  attack: 30
+  uses: 15
+  cooldown: 6
+  speed: 4
+  functions:
+  - Spin
+  - Cooldown
+  prefab: {fileID: 691568352228173978, guid: df47471b74fba4543a2ca525741b2cb2, type: 3}

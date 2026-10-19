@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6873cf61e334fa84289a7d8ccf03f780
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cannonBallPrefab: {instanceID: 0}
+  - cannonballPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

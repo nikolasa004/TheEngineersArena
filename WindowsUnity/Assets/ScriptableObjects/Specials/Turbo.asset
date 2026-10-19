@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7a4f33d5464c1439da306367b10bc1, type: 3}
+  m_Name: Turbo
+  m_EditorClassIdentifier: 
+  id: turbo
+  sprite: {fileID: 21300000, guid: 9b682718efe9cea4d93298781332ae0b, type: 3}
+  uses: 10
+  effect: Gives speed boost
+  functions:
+  - Use
+  - GetUses
+  prefab: {fileID: 4222892961800263847, guid: 6ece78ef5e4f78447bb61a681fb195f6, type: 3}
